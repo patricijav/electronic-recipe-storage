@@ -1,0 +1,24 @@
+html {
+  background-color: #dfd3c3; /* So my signature color is displayed */
+  color: #201409;
+}
+
+body {
+  margin: 0; /* By default body element has 8px margin, let's remove it and add it back if ever need it */
+}
+
+#root {
+  max-width: 1280px; /* Personally I am a huge fan of websites that aren't larger than 1280 px wide, so let's do that*/
+  min-width: 768px; /* Let's also set a min width that fits tablets */
+  margin: 0 auto; /* For the above comment to work, we need to center the webpage horizontally, so let's put 0 margin on vertical axis, but automatically center it on horizontal axis*/
+
+  /* Good out-of-box fonts */
+  line-height: 1.5; /* Remove this, if texts like steps seem too close */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  /* Subtle improvements */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
