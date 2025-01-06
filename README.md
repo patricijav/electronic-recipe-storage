@@ -1,5 +1,8 @@
 # Electronic recipe storage
 
+![all_screens](https://github.com/user-attachments/assets/55100d6d-29ec-4f30-b331-66581653c399)
+
+
 # Usage
 
 Get the database up and running:
